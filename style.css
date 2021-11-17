@@ -1,0 +1,68 @@
+/* CSS */
+
+* {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Classes */
+
+.flex {
+    display: flex;
+}
+.topnav {
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    margin: 0% 10%;
+}
+.feed {
+    text-align: center;
+    margin-top: 10px;
+}
+.main {
+    margin: 0% 10%;
+}
+.col-1 {
+    flex: 1;
+    margin: 5px;
+}
+.col-2 {
+    flex: 2;
+    margin: 5px;
+}
+.leftpanel {
+    text-align: center;
+    border: 2pt black solid;
+    padding: 10px;
+}
+.leftpanel img {
+    border: black 1pt solid;
+    border-radius: 50%
+}
+.likepanel {
+    border: 2pt black solid;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.toprow {
+    justify-content: space-between;
+    align-items: center;
+}
+.likebox {
+    align-items: center;
+    gap: 5px;
+}
+.likebutton {
+    color: black;
+    background-color: yellow;
+    padding: 3px 10px;
+    border: 1pt black solid;
+    box-shadow: 2px 2px;
+}
+.bottomrow {
+    margin-top: 10px;
+}
+
+/* IDs */
